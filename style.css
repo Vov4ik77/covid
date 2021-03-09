@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    max-width: 1443px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -44,7 +44,9 @@
     color: #FF383D;
     text-align: center;
     display: inline-block;
-    position: absolute
+    position: absolute;
+    left: -100px;
+    top: -20px;
 }
 .button {
     width: 250px;
@@ -68,6 +70,9 @@
 }
 .header {
     margin-top: 52px;
+    font-size: 24px;
+    line-height: 190%;
+
 }
 .link {
     color: #035755;
@@ -101,9 +106,11 @@ body {
     font-family: 'Red Hat Display';
 }
 .group_1 {
-    background: url(path1470.svg);
-    background-repeat: no-repeat;
-    background-position: 0 100%;
+    background: url(path1470.svg) 0% 100% no-repeat; 
+   
+}
+.group_5 {
+    background: url(path51470.svg) 100% 90% no-repeat, url(path61470.svg) 99% 10% no-repeat;
 }
 .text_end {
     font-family: Red_Hat_Display;
@@ -116,7 +123,14 @@ body {
 }
 
 .group_2 {
-    background: url(path21470.svg) right center no-repeat, url(path31470.svg) right bottom no-repeat;
+    background: url(path21470.svg) 100% 80% no-repeat, url(path31470.svg) 100% 100% no-repeat;
+ 
+}
+.group_3 {
+background: url(path41470.svg) 22% 97% no-repeat
+}
+.group_4 {
+    background: url(Path1762.svg) 20% 80% no-repeat, url(Path1764.svg) 80% 100% no-repeat;
 }
 .line {
     width: 790px;
@@ -125,7 +139,7 @@ body {
     box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
     border-radius: 57px;
     margin-top: 62px;
-    margin-left: 30%;
+    margin: 0 auto;
 }
 .button_3 {
     width: 209px;
@@ -164,4 +178,62 @@ body {
 }
 .title {
     position: relative;
+}
+.margin {
+    margin: 20px;
+}
+.header_img {
+    margin-right: -400px;
+}
+.section_img {
+    margin-left: -200px;
+} 
+.text_right {
+    font-size: 20px;
+    line-height: 215%;
+}
+.header_right {
+    font-size: 50px;
+    line-height: 0%;
+}
+.header-top {
+    font-size: 29px;
+    line-height: 124%;
+}
+.header_top2 {
+    margin-top: 112px;
+}
+.img_top {
+    height: 368px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_4 {
+    width: 154px; 
+    height: 55px;
+    border: 2px solid #FB4C47;
+    box-sizing: border-box;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF383D;
+}
+.header_center {
+    margin-top: 148px;
+}
+.text_margin {
+    margin: 67px;
+}
+.margin_center {
+    margin: 20px;
+    margin-top: 170px;
+}
+.top {
+    margin-top: 71px;
 }
